@@ -1,0 +1,1 @@
+Simple wrapper package in Meteor for bootstrap-tagsinput with the official twbs:bootstrap dependency.
