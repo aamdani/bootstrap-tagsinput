@@ -10,11 +10,6 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('1.1');
-  api.addFiles('bootstrap-tagsinput.js');
-});
-
 Package.on_use(function (api) {
     // dependecies required by package
     api.use('twbs:bootstrap','client')
