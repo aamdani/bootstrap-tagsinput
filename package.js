@@ -14,6 +14,6 @@ Package.on_use(function (api) {
     // dependecies required by package
     api.use('twbs:bootstrap','client')
     // adding the required file for package
-    api.add_files('lib/bootstrap-tagsinput/lib/bootstrap-tagsinput.min.js', 'client');
-    api.add_files('lib/bootstrap-tagsinput/lib/bootstrap-tagsinput.css', 'client');
+    api.add_files('/lib/bootstrap-tagsinput.min.js', 'client');
+    api.add_files('lib/bootstrap-tagsinput.css', 'client');
 });
